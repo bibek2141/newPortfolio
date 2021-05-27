@@ -18,9 +18,7 @@ function Footer() {
           <i className="fas fa-envelope fa-2x social-media"></i>
         </a>
 
-        <p className="copyright">
-          Copyright ⓒ{new Date().getFullYear()}
-        </p>
+        <p className="copyright">Copyright ⓒ{new Date().getFullYear()}</p>
       </div>
     </div>
   );

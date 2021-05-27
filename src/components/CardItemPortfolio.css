@@ -9,6 +9,7 @@
     grid-template-rows: 5rem 1fr 5rem;
     height: auto;
     background-color: black;
+    margin-top:-8px;
   }
 
 
@@ -114,3 +115,12 @@
       align-items: center;
   }
   
+  @media screen and (max-width: 400px) {
+    .card{
+      width:21rem;
+    }
+
+    .card-body{
+      width:100%;
+    }
+  }

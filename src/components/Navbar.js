@@ -1,29 +1,29 @@
 import React, { useState, useEffect } from "react";
-import {Link, NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Button } from "./Button";
-import './Navbar.css';
+import "./Navbar.css";
 function Navbar() {
   const [click, setClick] = useState(false);
-  
-    /*Reverse State*/
-  const[button,setButton] = useState(true);
+
+  /*Reverse State*/
+  const [button, setButton] = useState(true);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const showButton= () => {
-      if(window.innerWidth <=960){
-          setButton(false);
-      }else{
-          setButton(true);
-      }
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
   };
-  
-  window.addEventListener('resize',showButton);
 
-  /*Show button once button center remember*/ 
+  window.addEventListener("resize", showButton);
+
+  /*Show button once button center remember*/
   useEffect(() => {
-      showButton();
-  },[]);
+    showButton();
+  }, []);
   return (
     <>
       {" "}
@@ -39,7 +39,13 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <NavLink to="/" exact activeClassName='main-nav-active' className="nav-links" onClick={closeMobileMenu}>
+              <NavLink
+                to="/"
+                exact
+                activeClassName="main-nav-active"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </NavLink>
             </li>
@@ -47,8 +53,8 @@ function Navbar() {
               <NavLink
                 to="/portfolio"
                 className="nav-links"
-                exact 
-                activeClassName='main-nav-active'
+                exact
+                activeClassName="main-nav-active"
                 onClick={closeMobileMenu}
               >
                 Portfolio
@@ -59,14 +65,14 @@ function Navbar() {
                 to="/contactMe"
                 className="nav-links-mobile"
                 exact
-                activeClassName='main-nav-active'
+                activeClassName="main-nav-active"
                 onClick={closeMobileMenu}
               >
                 Contact Me
               </NavLink>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}
+          {button && <Button buttonStyle="btn--outline">Contact Me</Button>}
         </div>
       </nav>{" "}
     </>
