@@ -1,11 +1,14 @@
 import React from 'react'
+import CardPortfolio from '../CardPortfolio'
+import Footer from '../Footer';
 
 function Portfolio() {
     return (
-        <div>
-            
-        </div>
+        <>
+            <CardPortfolio />
+            <Footer/>
+        </>
     )
 }
 
-export default Portfolio
+export default Portfolio;

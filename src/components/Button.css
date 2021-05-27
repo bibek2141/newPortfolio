@@ -25,7 +25,6 @@
 
 .btn--resume, .btn-mobile{
     background-color: var(--primary);
-    color: rgba(226, 226, 226);
     border: none;
     border-radius: 30px;
 }
@@ -41,7 +40,11 @@
 }
 
 .btn--medium:hover, .btn-large:hover{
-    background: #fff;
     color: #242424;
     transition: all 0.2s ease-out;
+}
+
+.btn:focus,.btn--medium:focus,.btn--large:focus{
+    outline:none;
+    box-shadow: none;
 }
