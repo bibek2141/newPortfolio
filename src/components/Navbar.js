@@ -35,7 +35,7 @@ function Navbar() {
           {/* Use state to change hamburger menu cross to ==*/}
           <div className="menu-icon" onClick={handleClick}>
             {/* When i click on hamburger menu toggle between cross and times*/}
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+            <i className={click ? "fas fa-times fa-lg" : "fas fa-bars fa-lg"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">

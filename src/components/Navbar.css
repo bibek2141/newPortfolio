@@ -94,6 +94,10 @@ a:hover {
     position: relative;
   }
 
+  .nav-item{
+    height:auto;
+  }
+
   .nav-menu {
     background-color: #3d9970;
     display: flex;
@@ -125,8 +129,7 @@ a:hover {
   }
 
   .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
+    color: #3d9970;
     border-radius: 0;
   }
 
@@ -140,8 +143,8 @@ a:hover {
   .menu-icon {
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 21px;
+    right: 21px;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -149,27 +152,27 @@ a:hover {
 
   .fa-times {
     color: #fff;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .nav-links-mobile {
     display: block;
     text-align: center;
     margin: 2rem auto;
-    width: 80%;
+    width: 50%;
     text-decoration: none;
     background-color: #3d9970;
     color: rgba(226, 226, 226, 1);
     font-size: 2.6rem;
     padding: 14px 20px;
     border: 1px solid #3d9970;
-    border-radius: 30px;
+    border-radius: 48px;
     transition: all 0.3s ease-out;
   }
 
   .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
+    background: #000;
+    color: #3d9970;
     transition: 250ms;
   }
 }
