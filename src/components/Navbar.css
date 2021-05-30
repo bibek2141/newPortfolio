@@ -150,8 +150,8 @@ a:hover {
   .menu-icon {
     display: block;
     position: absolute;
-    top: 21px;
-    right: 21px;
+    top: 15px;
+    right: 10px;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
