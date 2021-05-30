@@ -20,6 +20,15 @@ const data = {
     },
     {
       _id: "3",
+      name: "Movies2Watch",
+      img: "./images/movies2watch.jpg",
+      description:
+        "Build a responsive working Movie App, uses the movie database API for real time data. Implemented features such as displaying featured movies, search movies, summary of the movies, links to trailer and movie overview.",
+      githubLink: "https://github.com/bibek2141/Movies2Watch",
+      websiteLink: "https://movies2watch.netlify.app/",
+    },
+    {
+      _id: "4",
       name: "Multi-Page Landing Page",
       img: "./images/MultiPageLanding.png",
       description:
@@ -28,7 +37,7 @@ const data = {
       websiteLink: "https://multi-page-landing.vercel.app/",
     },
     {
-      _id: "4",
+      _id: "5",
       name: "Autonomous Target Scoring Drone",
       img: "./images/drone.jpg",
       description:
@@ -37,7 +46,7 @@ const data = {
       websiteLink: "https://github.com/bibek2141/Senior-Design",
     },
     {
-      _id: "5",
+      _id: "6",
       name: "Bookmark Landing Page",
       img: "./images/BookmarkLandingPage.png",
       description:
@@ -46,7 +55,7 @@ const data = {
       websiteLink: "https://bibek2141.github.io/Bookmark-Landing-Challenge/",
     },
     {
-      _id: "6",
+      _id: "7",
       name: "BACCIE BOGIE",
       img: "./images/bacci1.jpg",
       description:
@@ -55,7 +64,7 @@ const data = {
       websiteLink: "https://www.thebaccibook.com/",
     },
     {
-      _id: "7",
+      _id: "8",
       name: "Interrupt-driven Input/Output on raspberry Pi 3B+ with LEDs and pushbuttons",
       img: "./images/interrupt.jpg",
       description:
@@ -64,7 +73,7 @@ const data = {
       websiteLink: "https://github.com/bibek2141/Assignment4",
     },
     {
-      _id: "8",
+      _id: "9",
       name: "The Game of Chess",
       img: "./images/weather.jpg",
       description:
@@ -73,7 +82,7 @@ const data = {
       websiteLink: "https://github.com/bibek2141/Project1",
     },
     {
-      _id: "9",
+      _id: "10",
       name: "The Chat Box",
       img: "./images/chat_softwareSpec.jpg",
       description:
