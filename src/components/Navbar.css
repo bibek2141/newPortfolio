@@ -92,7 +92,7 @@ a:hover {
 @media only screen and (max-device-width: 509px) {
   /* styles for mobile browsers smaller than 510px; (iPhone) */
   .nav-links-mobile{
-    width:70% !important;
+    width:80% !important;
   }
 }
 
