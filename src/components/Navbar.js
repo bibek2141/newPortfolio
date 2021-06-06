@@ -38,6 +38,9 @@ function Navbar() {
             <i className={click ? "fas fa-times fa-lg" : "fas fa-bars fa-lg"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="empty">
+              
+            </li>
             <li className="nav-item">
               <NavLink
                 to="/"
