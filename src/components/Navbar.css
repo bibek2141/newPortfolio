@@ -63,8 +63,8 @@ a:hover {
 }
 
 .nav-item {
-  height: 80px;
-  font-size: 1.5rem;
+  height: 32px;
+  font-size: 1.7rem;
 }
 
 .nav-links {
@@ -129,7 +129,7 @@ a:hover {
     top: 60px;
     left: -130%;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.0001s ease;
   }
 
   .nav-menu.active {
@@ -137,7 +137,7 @@ a:hover {
     left: 0px;
     height:100vh;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.0001s ease;
     z-index: 1;
     position:fixed;
     overflow: auto;
