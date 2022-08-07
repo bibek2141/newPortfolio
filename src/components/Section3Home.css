@@ -1,0 +1,37 @@
+.section3Home-container {
+  background-color: black;
+  color: #3d9970;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  border: none;
+}
+
+.section3Home-header h3 {
+  font-size: 34px;
+}
+
+.section3Home-header {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.section3Home-button {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3Home-container a {
+  text-decoration: none;
+}
