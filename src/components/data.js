@@ -6,8 +6,8 @@ const data = {
       img: "/images/weather.jpg",
       description:
         "I made this project as an additional practice after working on API on Udemy.User can view temperature of every 3 hours of next 21 hours.Used NodeJS,ExpressJS , EJS, Bootstrap,Javascript, HTML, and CSS.",
-      githubLink: "https://github.com/bibek2141/weatherapp",
-      websiteLink: "https://temp-city.herokuapp.com/",
+      githubLink: "https://github.com/bibek2141/weatherAppProject",
+      websiteLink: "https://weather-app-paa4.onrender.com/",
     },
     {
       _id: "2",
