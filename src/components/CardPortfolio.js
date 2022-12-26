@@ -4,8 +4,8 @@ import data from "./data";
 
 function CardPortfolio() {
   return (
-    <div className="grid-container">
-      <main class="main-card">
+    <div className="grid-container container-fluid content-row">
+      <main className="main-card">
         <div>
           <div className="row center">
             {data.projects.map((project) => (
@@ -13,6 +13,7 @@ function CardPortfolio() {
             ))}
           </div>
         </div>
+        i
       </main>
     </div>
   );

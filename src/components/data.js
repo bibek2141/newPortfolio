@@ -2,21 +2,21 @@ const data = {
   projects: [
     {
       _id: "1",
+      name: "Soccer Web App",
+      img: "./images/SoccerWebApp.png",
+      description:
+        "Build a Rest API using ASP.NET WEB CORE and SQL Server where I wrote Api to Get data, Post data, delete data. Used C#. Currently has all the api for discussion, login, and registration page. Currently working on other pages (MeetUps and Memes). Both the link below are of its Github page which includes back end and front end codes.",
+      githubLink: "https://github.com/bibek2141/soccer-app-back-end",
+      websiteLink: "https://github.com/bibek2141/soccer-app-front-end",
+    },
+    {
+      _id: "2",
       name: "Weather App",
       img: "/images/weather.jpg",
       description:
         "I made this project as an additional practice after working on API on Udemy.User can view temperature of every 3 hours of next 21 hours.Used NodeJS,ExpressJS , EJS, Bootstrap,Javascript, HTML, and CSS.",
       githubLink: "https://github.com/bibek2141/weatherAppProject",
       websiteLink: "https://weather-app-paa4.onrender.com/",
-    },
-    {
-      _id: "2",
-      name: "To Do List",
-      img: "./images/todolist.jpg",
-      description:
-        "I made this project as an additional practice after working on to-do-list project, Authentication & Security project in Online course on Udemy.Used: HTML, CSS, Javascript, Express Js, Node Js, Oauth, MongoDB, and Mongoose.",
-      githubLink: "https://github.com/bibek2141/ToDoList",
-      websiteLink: "https://todolistapp0.herokuapp.com/",
     },
     {
       _id: "3",
